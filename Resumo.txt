@@ -1,9 +1,36 @@
 Seção 01
-	Aula 001 - OK
-	Aula 002 - OK
-	Aula 003 - OK
-	Aula 004
+    Aula 001 - OK
+    Aula 002 - OK
+    Aula 003 - OK
+    Aula 004 - OK
 Seção 02
+    Aula 005 - OK
+    Aula 006 - 
+    Aula 007 - 
+    Aula 008 - 
+    Aula 009 - 
+    Aula 010 - 
+    Aula 011 - 
+    Aula 012 - 
+    Aula 013 - 
+    Aula 014 - 
+    Aula 015 - 
+    Aula 016 - 
+    Aula 017 - 
+    Aula 018 - 
+    Aula 019 - 
+    Aula 020 - 
+    Aula 021 - 
+    Aula 022 - 
+    Aula 023 - 
+    Aula 024 - 
+    Aula 025 - 
+    Aula 026 - 
+    Aula 027 - 
+    Aula 028 - 
+    Aula 029 - 
+    Aula 030 - 
+    Aula 031 - 
 Seção 03
 Seção 04
 Seção 05
@@ -25,4 +52,32 @@ Seção 20
 Seção 21
 
 ---------------------------------------------------------------
+
+- Configurações VSCode
+
+    Mudar idioma
+
+        Pressione Ctrl + Shift + P
+        Digite "Configure Display Language"
+        Selecione "Configure Display Language"
+        Selecione o idioma "português (Brasil)"
+
+    Extensions
+
+        Auto Close Tag
+        Auto Rename Tag
+        Color Highlight
+        Image Preview
+        Prettier - Code formatter
+        Live Server
+        vscode-pdf
+
+    Settings
+
+        Auto Save set to "onFocusChange"
+        Default Formatter set to "Prettier - Code formatter (esbnp.prettier-vscode)"
+        Format on Save set to "true"
+        Word Wrap set to "on"
+        Tab Size set to "4"
+        Multi Cursor Modifier set to "ctrlCmd"
 
