@@ -5,9 +5,9 @@ Seção 01
     Aula 004 - OK
 Seção 02
     Aula 005 - OK
-    Aula 006 - 
-    Aula 007 - 
-    Aula 008 - 
+    Aula 006 - OK
+    Aula 007 - OK
+    Aula 008 - OK
     Aula 009 - 
     Aula 010 - 
     Aula 011 - 
@@ -79,5 +79,32 @@ Seção 21
         Format on Save set to "true"
         Word Wrap set to "on"
         Tab Size set to "4"
+        Tab Width set to "4"
         Multi Cursor Modifier set to "ctrlCmd"
+
+- Como criar um documento HTML básico no VSCode
+
+    html:5 + Enter
+
+- Carregar código JavaScript embutido no HTML
+
+    Inserir a tag abaixo no arquivo HTML antes do fechamento da tag <body> e dentro dela o código JavaScript.
+
+    <script>
+        ...
+    </script>
+
+- Carregar código JavaScript separado do HTML
+
+    Criar um arquivo com extensão .js separado e adicionar a tag abaixo no arquivo HTML indicando seu caminho antes do fechamento da tag <body>.
+
+    <script src="script.js"></script>
+
+- Escrevendo no console
+
+    O comando console.log() é uma função do JavaScript usada para exibir informações no console do navegador, sendo muito útil para depuração e acompanhamento da execução do código.
+
+    Exemplo:
+
+    console.log("Olá mundo");
 
