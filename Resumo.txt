@@ -8,7 +8,7 @@ Seção 02
     Aula 006 - OK
     Aula 007 - OK
     Aula 008 - OK
-    Aula 009 - 
+    Aula 009 - OK
     Aula 010 - 
     Aula 011 - 
     Aula 012 - 
@@ -96,7 +96,7 @@ Seção 21
 
 - Carregar código JavaScript separado do HTML
 
-    Criar um arquivo com extensão .js separado e adicionar a tag abaixo no arquivo HTML indicando seu caminho antes do fechamento da tag <body>.
+    Criar um arquivo com extensão .js separado e adicionar a tag abaixo no arquivo HTML indicando seu nome e caminho antes do fechamento da tag <body>.
 
     <script src="script.js"></script>
 
@@ -107,4 +107,54 @@ Seção 21
     Exemplo:
 
     console.log("Olá mundo");
+
+- Uso de aspas duplas
+
+    Utilizada para criar campos de texto chamdos "strings", por padrão é utilizada a aspas duplas cercando o texto conforme exemplo abaixo:
+
+    const nome = "Fernando";
+
+- Uso de ponto e virgula
+
+    O ponto e vírgula indica o fim de uma instrução, exmeplo:
+
+    let a = 10;
+
+- Palavras reservadas
+
+    São palavras que pertencem à linguagem, elas possuem significado próprio e não podem ser usadas como identificadores de nenhum tipo, por exemplo as palavras abaixo:
+
+    if
+    new
+    let
+
+- Variaveis e constantes
+
+    Uma variável é um espaço na memória utilizado para armazenar um valor.
+
+    Declaração
+
+        let - Forma moderna e recomendada quando o valor pode mudar, pode ser declarada vazia.
+        const - Usada quando o valor não pode mudar (tipos comuns), obrigatoriamente tem de ser atribuido um valor ao ser declarada
+
+    Convenção de nomes
+
+        Não pode começar com número
+        Não pode conter espaços
+        Não pode usar palavras reservadas
+        Pode usar letras, números, _ e $
+        Usar padrão "camelCase", primeira palavra minúscula, próximas com inicial maiúscula.
+        Constantes devem ter todas a letras em maiúsculo quando o valor é realmente fixo e imutável, algo que representa uma constante "global" ou  de configuração porem pode ser escita como variavel comum em casos comuns
+
+    Observações importantes:
+
+        const é a forma recomendada por padrão para declarar quaisquer tipo de variáveis atualmente
+        const não torna o valor imutável para objetos / arrays, apenas impede a reatribuição da variável
+
+    Exemplos:
+
+        let idade = 20;
+        const nome = "Fernando";
+        const PI = 3.1415;
+
 
