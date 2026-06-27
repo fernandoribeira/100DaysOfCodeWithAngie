@@ -9,8 +9,8 @@ Seção 02
     Aula 007 - OK
     Aula 008 - OK
     Aula 009 - OK
-    Aula 010 - 
-    Aula 011 - 
+    Aula 010 - OK
+    Aula 011 - OK
     Aula 012 - 
     Aula 013 - 
     Aula 014 - 
@@ -157,4 +157,63 @@ Seção 21
         const nome = "Fernando";
         const PI = 3.1415;
 
+- Tipagem dinamica
+
+    JavaScript é uma linguagem de tipagem dinâmica, ou seja:
+
+    Você não define o tipo da variável
+    O tipo é definido automaticamente pelo valor atribuído
+    Uma variável pode mudar de tipo durante a execução
+
+- Tipos de valores
+
+    Os valores são divididos em duas grandes categorias: tipos primitivos e objetos.
+
+    Tipos primitivos são valores simples, guardando apenas uma informação, por exemplo:
+
+        const nome = "Maria";
+        const idade = 25;
+
+    Objetos armazenam coleções de dados e podem conter propriedades e métodos, guardando diversas informações, por exemplo:
+
+        const pessoa = {
+            nome: "Maria",
+            idade: 25,
+            falar() {
+                console.log("Olá!");
+            }
+        };
+
+- Tipos de dados
+
+    number - Representa números inteiros e decimais
+    string - Texto entre aspas simples, duplas ou crase
+    boolean - Valores lógicos
+    undefined - Variável declarada, mas sem valor atribuído
+    null - Representa ausência intencional de valor
+    symbol - Usado para criar identificadores únicos (mais avançado)
+    bigint - Números inteiros muito grandes
+    object - Usado para agrupar dados e funcionalidades em uma única estrutura, ele representa coleções de pares chave > valor
+
+- Comentários
+
+    Comentário de uma linha:
+
+    // Isso é um comentário
+
+    Comentário de múltiplas linhas:
+
+    /*
+    Comentário
+    com várias linhas
+    */
+
+- Operador "typeof"
+
+    O operador typeof é usado para verificar o tipo de um valor ou variável.
+
+    Exemplo:
+
+    typeof 10;           // "number"
+    typeof "texto";      // "string"
 
