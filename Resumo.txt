@@ -12,7 +12,7 @@ Seção 02
     Aula 010 - OK
     Aula 011 - OK
     Aula 012 - OK
-    Aula 013 - 
+    Aula 013 - OK
     Aula 014 - 
     Aula 015 - 
     Aula 016 - 
@@ -107,6 +107,16 @@ Seção 21
     Exemplo:
 
     console.log("Olá mundo");
+
+    Para contatenar informações utilizamos a virgula "," ou o simbolo de soma "+".
+
+    A "," aplica um espaço entre as informações ja o "+" não aplica, sendo necessario aplicar um espaço manualmente entre as informações.
+
+    Exemplo:
+
+    console.log("Olá", "mundo");
+
+    console.log("Olá" + " " + "mundo");
 
 - Uso de aspas duplas
 
@@ -216,4 +226,81 @@ Seção 21
 
     typeof 10;           // "number"
     typeof "texto";      // "string"
+
+- Operadores
+
+    Aritméticos
+
+        Usados para realizar cálculos matemáticos:
+
+        +  adição
+        -  subtração
+        *  multiplicação
+        /  divisão
+        %  resto da divisão (módulo)
+        ** exponenciação
+
+    Atribuição
+
+        Usados para atribuir valores a variáveis:
+
+        =   atribuição simples
+        +=  soma e atribui
+        -=  subtrai e atribui
+        *=  multiplica e atribui
+        /=  divide e atribui
+        %=  módulo e atribui
+        **= exponencia e atribui
+
+    Incrementais / Decrementais
+
+        Servem para aumentar ou diminuir valores em 1:
+
+        ++ incremento
+        -- decremento
+
+        Temos pré-incremento / pré-decremento:
+
+        let i = 5;
+        ++i; // i = 6
+
+        Temos pós-incremento / pós-decremento:
+
+        let j = 5;
+        j++; // j = 6 (mas retorna 5 antes de incrementar)
+
+        Diferença importante:
+
+        pré: altera antes de usar
+        pós: usa o valor e depois altera
+
+    Comparadores
+
+        Usados para comparar valores. Sempre retornam true ou false.
+
+        ==  igual (com conversão de tipo)
+        === igual estrito (sem conversão)
+        !=  diferente
+        !== diferente estrito
+        >   maior
+        <   menor
+        >=  maior ou igual
+        <=  menor ou igual
+
+- Ordem dos Operadores
+
+    A ordem define quais operações são executadas primeiro.
+
+    Ordem simplificada (do maior para o menor):
+
+    ()             parênteses
+    **             exponenciação
+    ++ --          incremento / decremento
+    * / %          multiplicação, divisão, módulo
+    + -            adição e subtração  
+    < <= > >=      comparações
+    == != === !==  igualdade
+    && AND         lógico
+    || OR          lógico
+    = += -= *= ... atribuição
 
