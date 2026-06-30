@@ -16,7 +16,7 @@ Seção 02
     Aula 014 - OK
     Aula 015 - OK
     Aula 016 - OK
-    Aula 017 - 
+    Aula 017 - OK
     Aula 018 - 
     Aula 019 - 
     Aula 020 - 
@@ -303,4 +303,36 @@ Seção 21
     && AND         lógico
     || OR          lógico
     = += -= *= ... atribuição
+
+- Template literals
+
+    Template literals são uma forma mais moderna e poderosa de trabalhar com strings no JavaScript. Eles foram introduzidos no ES6 e usam crases (`) em vez de aspas simples ou duplas.
+
+    Principais características
+
+    Interpolação de variáveis: Com template literals, você pode inserir variáveis e expressões diretamente dentro da string usando ${ }.
+
+    Exemplo:
+
+    const nome = "Fernando";
+    const idade = 17;
+    const mensagem = `Meu nome é ${nome} e tenho ${idade} anos.`;
+
+    Sem template literals, seria necessário concatenar com +, o que fica menos legível.
+
+    Expressões dentro da string: Não é só variável que funciona. Qualquer expressão JavaScript pode ser usada.
+
+    Exemplo:
+
+    const a = 10;
+    const b = 5;
+    const resultado = `A soma é ${a + b}`;
+
+    Strings multilinha: Template literals permitem quebrar linhas sem usar \n.
+
+    Exemplo:
+
+    const texto = `Linha 1
+    Linha 2
+    Linha 3`;
 
