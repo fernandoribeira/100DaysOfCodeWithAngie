@@ -17,8 +17,8 @@ Seção 02
     Aula 015 - OK
     Aula 016 - OK
     Aula 017 - OK
-    Aula 018 - 
-    Aula 019 - 
+    Aula 018 - OK
+    Aula 019 - OK
     Aula 020 - 
     Aula 021 - 
     Aula 022 - 
@@ -335,4 +335,108 @@ Seção 21
     const texto = `Linha 1
     Linha 2
     Linha 3`;
+
+- Estruturas de decisão
+
+    As estruturas de decisão permitem que o código escolha caminhos diferentes com base em condições (verdadeiro ou falso).
+
+    if
+
+        O if executa um bloco de código somente se a condição for verdadeira.
+
+        Exemplo:
+        let idade = 18;
+        if (idade >= 18) {
+            console.log("Maior de idade");
+        }
+
+        Se a condição for falsa, o código dentro do if simplesmente não é executado.
+
+    if else
+
+        O if else permite definir o que acontece quando a condição é verdadeira e o que acontece quando é falsa.
+
+        Exemplo:
+        let idade = 16;
+        if (idade >= 18) {
+            console.log("Maior de idade");
+        } else {
+            console.log("Menor de idade");
+        }
+
+        Aqui sempre um dos dois blocos será executado.
+
+    if else if
+
+        Usado quando há várias condições possíveis. O JavaScript testa as condições em ordem, e executa o primeiro bloco verdadeiro.
+
+        Exemplo:
+        let nota = 7;
+        if (nota >= 9) {
+            console.log("Excelente");
+        } else if (nota >= 7) {
+            console.log("Aprovado");
+        } else if (nota >= 5) {
+            console.log("Recuperação");
+        } else {
+            console.log("Reprovado");
+        }
+
+    switch
+
+        Usada quando você precisa comparar o valor de uma variável (ou expressão) com vários valores possíveis. Ele costuma ser uma alternativa mais organizada ao uso de vários if / else if.
+
+        O switch avalia uma expressão uma única vez e compara o resultado com cada case. Quando encontra um case correspondente, executa o código daquele bloco.
+
+        Sintaxe básica:
+
+        switch (expressao) {
+            case valor1:
+                // código se expressao === valor1
+                break;
+            case valor2:
+                // código se expressao === valor2
+                break;
+            default:
+                // código se nenhum case for atendido
+        }
+
+        Exemplo:
+        let dia = 3;
+        switch (dia) {
+            case 1:
+                console.log("Domingo");
+                break;
+            case 2:
+                console.log("Segunda");
+                break;
+            case 3:
+                console.log("Terça");
+                break;
+            default:
+                console.log("Dia inválido");
+        }
+
+        Informações importantes:
+
+        break: o break é essencial na maioria dos casos. Sem ele, o JavaScript continua executando os próximos cases, mesmo que eles não correspondam.
+
+        default: o default funciona como o else final. Ele é executado quando nenhum case corresponde ao valor testado.
+
+        Comparação usada no switch: switch usa comparação estrita (===). Isso significa que tipo e valor precisam ser iguais.
+
+    Operador ternário "?"
+
+        É um operador condicional que funciona como uma forma curta do if/else. Ele é chamado de ternário porque trabalha com três partes.
+
+        Sintaxe:
+
+        condicao ? valorSeVerdadeiro : valorSeFalso
+
+        Se a condição for verdadeira, o operador retorna o primeiro valor. Se for falsa, retorna o segundo.
+
+        Exemplo:
+
+        let idade = 20;
+        let resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
 
